@@ -1,0 +1,84 @@
+/* Estilo para a lista de certificados */
+.certificados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative; /* Necessário para a posição absoluta dos certificados */
+    overflow: hidden; /* Esconde certificados fora da área visível */
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilo para cada item de certificado */
+.certificados li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    position: absolute; /* Sobrepondo certificados */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ajusta a altura do item para preencher o contêiner */
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+}
+
+/* Visível e posicionado ao centro */
+.certificados li.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Certificados sendo ocultados */
+.certificados li.next {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+/* Certificados sendo mostrados */
+.certificados li.prev {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+/* Estilo para imagens dentro dos certificados */
+.certificados img {
+    width: 80%;
+    height: 75%;
+    object-fit: contain;
+    border-radius: 10px
+}
+
+/* Botões de navegação */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.nav-button {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* Gradiente moderno */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 50px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease; /* Transição suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.nav-button:hover {
+    background: linear-gradient(135deg, #50e3c2, #4a90e2); /* Gradiente invertido ao passar o mouse */
+    transform: translateY(-2px); /* Levantar botão ao passar o mouse */
+}
+
+.nav-button:active {
+    transform: translateY(0); /* Botão volta ao normal ao clicar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra reduzida ao clicar */
+}

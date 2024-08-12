@@ -1,0 +1,175 @@
+{
+  "name": "Danrley S. Jesus",
+  "photo": "https://media.licdn.com/dms/image/D4E03AQG5zUCsj2yS-w/profile-displayphoto-shrink_800_800/0/1720502819513?e=1728518400&v=beta&t=O_zcsC_GkDrkN4v3387C4K0dBEnK7SqZJPYBA_4Zhos",
+  "job": "Junior Developer",
+  "location": "Salvador - BA",
+  "phone": "(71) 99224-2135",
+  "email": "danrleydeveloper@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "CSS",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/css.png?raw=true"
+      },
+      {
+        "name": "Docker",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/docker.png?raw=true"
+      },
+      {
+        "name": "Flutter",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/flutter.png?raw=true"
+      },
+      {
+        "name": "Git",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/git.png?raw=true"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/html.png?raw=true"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/js.png?raw=true"
+      },
+      {
+        "name": "Kotlin",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/kotlin.png?raw=true"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/mysql.png?raw=true"
+      },
+      {
+        "name": "Python",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/python.png?raw=true"
+      },
+      {
+        "name": "VsCode",
+        "logo": "https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/vscode.png?raw=true"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name": "Mongodb",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      },
+      {
+        "name": "DotNet",
+        "logo": "https://learn.microsoft.com/pt-pt/media/logos/logo_net.svg"
+      },
+      {
+        "name": "Figma",
+        "logo": "data:image/webp;base64,UklGRvgCAABXRUJQVlA4IOwCAAAQEQCdASo4ADgAPi0Ki0WhkNDM+BgCxLQAQfQxhX/zD7o/tV0J8G+YD7APkB9t3qQfcB2gPMB/Cv65/oPaS9CHoAfrv1gHoAfqf1n/7M/tp7TP//O8DS4sxftBqFZIokNeujhPij5c7z7aX88R20LJEorn0Xbw9xgvU6TbxISNlhjGJJuwtdalcTtYSbjaRMQAAP7+zLXklnm1xAlt1rdcLsv/6mrqpuIK6xsVYOvT5ZXfZlQkrfB7+Z1PgO6GovgYM8kcbrtA2YDBWo8LTz7T2mnGFHzTrXkVYrJ8deCweJGaYyCGS8QfZH5+k8bE7t1CATrL6w0rBNb5HsT0bWU2OXCdBlCwlef/YNETh+1iX9BTNWfNBcX+ot0tem5Ec4dWoYvU5tQKyS1ZAGaEHV+WlLPM7HQXO+WQJ97d8CDezSB7TENrdk7Ld/hxYZHS7Th26m+X86KppOiMy/CYG0ltcZs35LzVPM9qNgoGxrxF9YcLOfLsM4xarnNhgcGwWiLlU1Hwj56Nwo9hRHc/JrNAPNVCDjT2vOfBhpjP0tYhCN+I7xwmTksehhH9BbfPp0PqRVNOzovrWdKi8N/u6e+z/v/79EdraBiLJHTfJqMwjLNd+wv5JjVv3hRsiVkNf1MqM1d4t+baT5AOUaGwv6rWCvz0DcHsrmqZUPo7JMv8g+t/7JOf9VKNZMKztlbU+0Lkqk1vHR5u0miJTrsUvMtiZo/u4hwAVi1FOfhZ1oUZbmI+ZR4N/52M5zBN9ZnrDFUtMu0BOm/jdn35d65Ly+BnGrPWujXkd+pS+vFDjoChhGb/Ytmizry6MMtezCtO/Yib6Fk+c5wGsqDlJ8AmPO7g72GQ2ifiGnA+Z/fUfP8qon0zvQGtAtbN6p5j2iyXqH4NnejXDToekdauuRhGBk3iKg/lLXdv1uW7RcILs7AfTtd8TZYkq/TPODFCutbJNhcgV6XE2xkB+fy8mq81HZVEUbUigSCDdgR+AAAA"
+      },
+      {
+        "name": "C#",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png"
+      },
+      {
+        "name": "MariaDB",
+        "logo": "https://mariadb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/11/mariadb-logo_black-transparent-300x75.png.webp"
+      }
+    ],
+
+    "softSkills": [
+      "Raciocinio Lógico",
+      "Trabalho em equipe",
+      "Resolução de problemas",
+      "Adaptabilidade",
+      "Organização",
+      "Aprendizagem contínua"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (Fluente)",
+    "Japonês (iniciante)",
+    "Francês (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Relogio mundial - Em Python",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Relogio%20mundial%20-%20Em%20Python",
+      "github": true
+    },
+    {
+      "name": "Quiz funcional em Python",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Quiz%20funcional%20em%20Python",
+      "github": true
+    },
+    {
+      "name": "Sistema bancario em Python - ultilizando defs",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema%20bancario%20em%20Python%20-%20ultilizando%20defs",
+      "github": true
+    },
+    {
+      "name": "Sistema Bancario em Python - ultilizando classes e métodos",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema%20Bancario%20em%20Python%20-%20ultilizando%20classes%20e%20m%C3%A9todos",
+      "github": true
+    },
+    {
+      "name": "Calculadora Cientifica em JS",
+      "url": "https://github.com/DanrleyS/calculadora-cientifica",
+      "github": true
+    },
+    {
+      "name": "Pokedex em JavaScript",
+      "url": "https://github.com/DanrleyS/Pokedex",
+      "github": true
+    },
+    {
+      "name": "Joguinho de carro com HTML, CSS, JavaScript",
+      "url": "https://github.com/DanrleyS/joguinho-de-carro--Com-html--javaScript--css",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Coordenador de vendas",
+      "period": "Jan 2021 - Current",
+      "description": "Coordenador de vendas na Idioma Independente."
+    },
+    {
+      "name": "Inside Sales",
+      "period": "Jan 2021 - Jan 2024",
+      "description": "Inside Sales na IMG International."
+    },
+    {
+      "name": "Language Teacher",
+      "period": "Jan 2020 - Current",
+      "description": "Professor de espanhol em Aliança América."
+    }
+  ],
+
+  "certificados": [
+    {
+      "name": "Formação JavaScript Developer",
+      "url": "https://hermes.dio.me/certificates/DGWXKTDV.pdf",
+      "logo": "https://raw.githubusercontent.com/DanrleyS/Portifolio_site/main/img%20certificados/img-certificado-javaScript.png"
+    },
+    {
+      "name": "Formação Python Back end Developer - 69Hrs",
+      "url": "https://hermes.dio.me/certificates/XMKFAFRF.pdf",
+      "logo": "https://raw.githubusercontent.com/DanrleyS/Portifolio_site/main/img%20certificados/img-certificado-Python_back_end.png"
+    }
+  ]
+}
