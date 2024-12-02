@@ -107,8 +107,18 @@
   ],
   "portfolio": [
     {
-      "name": "Relogio mundial - Em Python",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Relogio%20mundial%20-%20Em%20Python",
+      "name": "Locadora de Veículos em Java (Spring boot, Sql e Postman)",
+      "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
+      "github": true
+    },
+    {
+      "name": "Workout API (Python, Postgres e Docker)",
+      "url": "https://github.com/DanrleyS/workout_api-Funcional",
+      "github": true
+    },
+    {
+      "name": "Relogio Mundial em Python com parte gráfica (Python, TKinter) ",
+      "url": "https://github.com/DanrleyS/Relogio-Mundial-Python",
       "github": true
     },
     {
@@ -118,17 +128,12 @@
     },
     {
       "name": "Sistema bancario em Python - ultilizando defs",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema%20bancario%20em%20Python%20-%20ultilizando%20defs",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema_bancario-utilizando_defs",
       "github": true
     },
     {
       "name": "Sistema Bancario em Python - ultilizando classes e métodos",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema%20Bancario%20em%20Python%20-%20ultilizando%20classes%20e%20m%C3%A9todos",
-      "github": true
-    },
-    {
-      "name": "Locadora de Veículos em Java",
-      "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
+      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema-Bancario_em_Python-ultilizando_classes_e_metodo",
       "github": true
     },
     {
