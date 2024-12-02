@@ -127,6 +127,11 @@
       "github": true
     },
     {
+      "name": "Locadora de Veículos em Java",
+      "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
+      "github": true
+    },
+    {
       "name": "Calculadora Cientifica em JS",
       "url": "https://github.com/DanrleyS/calculadora-cientifica",
       "github": true
@@ -143,6 +148,11 @@
     }
   ],
   "professionalExperience": [
+     {
+      "name": "Desenvolvedor - Estágio",
+      "period": "aug 2024 - nov 2024",
+      "description": "Solutis: Desenvolvi softwares na linguagem Java com SQL, Spring boot, Hibernate. Usando metodologia scrum em grupo desenvolvi uma aplicação de locadora em Java utilizando Spring Boot e Hibernate, testada no Postman, promovendo uma estrutura escalável para integração futura."
+    },
     {
       "name": "Coordenador de vendas",
       "period": "Jan 2021 - Current",
