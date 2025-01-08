@@ -111,6 +111,11 @@
       "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
       "github": true
     },
+     {
+      "name": "Software que transcreve e faz resumo de vídeo do Youtube com IA",
+      "url": "https://github.com/DanrleyS/Software_IA_Transcreve_e_resume_videos_do_youtube_Git",
+      "github": true
+    },
     {
       "name": "Workout API (Python, Postgres e Docker)",
       "url": "https://github.com/DanrleyS/workout_api-Funcional",
@@ -132,11 +137,6 @@
       "github": true
     },
     {
-      "name": "Sistema Bancario em Python - ultilizando classes e métodos",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema-Bancario_em_Python-ultilizando_classes_e_metodo",
-      "github": true
-    },
-    {
       "name": "Calculadora Cientifica em JS",
       "url": "https://github.com/DanrleyS/calculadora-cientifica",
       "github": true
@@ -149,6 +149,11 @@
     {
       "name": "Joguinho de carro com HTML, CSS, JavaScript",
       "url": "https://github.com/DanrleyS/joguinho-de-carro--Com-html--javaScript--css",
+      "github": true
+    },
+    {
+      "name": "Mais projetos em:",
+      "url":"https://github.com/DanrleyS/Portifolio/",
       "github": true
     }
   ],
