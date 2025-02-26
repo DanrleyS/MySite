@@ -111,9 +111,19 @@
       "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
       "github": true
     },
+    {
+      "name": "Biblioteca de Previsão de Preço de Ações com Machine Learning (Python, Machine Learning, Pandas, Scikit-learn, yfinance) - link de instalação do package em python: pip install package-trade==0.1.0",
+      "url": "https://github.com/DanrleyS/Machile_learn_prever_valor_acoes/",
+      "github": true
+    },
      {
       "name": "Software que transcreve e faz resumo de vídeo do Youtube com IA(Python, IA)",
       "url": "https://github.com/DanrleyS/Software_IA_Transcreve_e_resume_videos_do_youtube_Git",
+      "github": true
+    },
+    {
+      "name": "Blog Pessoal com Django (Python, Django, HTML, SQLite)",
+      "url": "https://github.com/DanrleyS/SIte_feito_com_Django",
       "github": true
     },
     {
