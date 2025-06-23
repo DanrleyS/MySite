@@ -230,10 +230,11 @@
     
           // Adicionando o iframe para o chat
           const iframe = document.createElement('iframe');
-          iframe.src = 'http://195.35.40.52:8011/';
+          iframe.src = 'http://195.35.40.52:8011';  // Verifique a URL
           iframe.width = '100%';
           iframe.height = '100%';
           iframe.frameBorder = '0';
+          iframe.style.border = 'none'; // Remover qualquer borda do iframe
           chatWindow.appendChild(iframe);
           chatWindow.appendChild(closeChatButton);
     
@@ -241,7 +242,7 @@
         };
     
         // Caminho da imagem do ícone (personalize o caminho para sua imagem)
-        const chatIconImageUrl = 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png';
+        const chatIconImageUrl = '"https://github.com/DanrleyS/js-developer-portfolio/blob/main/data/imgs/git.png';
     
         // Criando o ícone e a janela do chat
         const chatIcon = createChatIcon(chatIconImageUrl);
@@ -277,6 +278,7 @@
         });
       })();
     </script>
+
 
 </body>
 </html>
