@@ -138,145 +138,145 @@
     <script src="assets/js/api.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-  (function() {
-    // Função para criar o ícone do chat com uma imagem personalizada
-    const createChatIcon = (imageUrl) => {
-      const chatIcon = document.createElement('button');
-      chatIcon.style.position = 'absolute';
-      chatIcon.style.width = '60px';
-      chatIcon.style.height = '60px';
-      chatIcon.style.border = 'none';
-      chatIcon.style.borderRadius = '50%';
-      chatIcon.style.background = `url(${imageUrl}) no-repeat center center`;
-      chatIcon.style.backgroundSize = 'cover';
-      chatIcon.style.cursor = 'pointer';
-      chatIcon.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
-      chatIcon.style.zIndex = '9999';
-      chatIcon.title = 'Abrir Chat';
-
-      // Efeito de hover
-      chatIcon.addEventListener('mouseover', () => {
-        chatIcon.style.transform = 'scale(1.1)';
-        chatIcon.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
-      });
-
-      chatIcon.addEventListener('mouseout', () => {
-        chatIcon.style.transform = 'scale(1)';
-        chatIcon.style.boxShadow = 'none';
-      });
-
-      // Função para permitir arrastar o ícone
-      let offsetX = 0;
-      let offsetY = 0;
-      let isDragging = false;
-
-      chatIcon.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        offsetX = e.clientX - chatIcon.getBoundingClientRect().left;
-        offsetY = e.clientY - chatIcon.getBoundingClientRect().top;
-        chatIcon.style.transition = 'none'; // Desabilita transição durante o arrasto
-      });
-
-      document.addEventListener('mousemove', (e) => {
-        if (isDragging) {
-          chatIcon.style.left = `${e.clientX - offsetX}px`;
-          chatIcon.style.top = `${e.clientY - offsetY}px`;
-        }
-      });
-
-      document.addEventListener('mouseup', () => {
-        isDragging = false;
-        chatIcon.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease'; // Reabilita transição
-      });
-
-      return chatIcon;
-    };
-
-    // Função para criar a janela do chat
-    const createChatWindow = () => {
-      const chatWindow = document.createElement('div');
-      chatWindow.style.display = 'none';
-      chatWindow.style.position = 'absolute';
-      chatWindow.style.width = '350px';
-      chatWindow.style.height = '450px';
-      chatWindow.style.backgroundColor = '#fff';
-      chatWindow.style.border = '1px solid #ddd';
-      chatWindow.style.borderRadius = '15px';
-      chatWindow.style.boxShadow = '0 6px 15px rgba(0, 0, 0, 0.2)';
-      chatWindow.style.overflow = 'hidden';
-      chatWindow.style.transition = 'transform 0.3s ease-in-out';
-      chatWindow.style.zIndex = '9999';
-
-      // Criando o botão de fechar
-      const closeChatButton = document.createElement('button');
-      closeChatButton.innerHTML = '×';
-      closeChatButton.style.position = 'absolute';
-      closeChatButton.style.top = '10px';
-      closeChatButton.style.right = '10px';
-      closeChatButton.style.fontSize = '20px';
-      closeChatButton.style.backgroundColor = 'transparent';
-      closeChatButton.style.border = 'none';
-      closeChatButton.style.color = '#333';
-      closeChatButton.style.cursor = 'pointer';
-      closeChatButton.style.transition = 'color 0.3s ease';
-
-      closeChatButton.addEventListener('mouseover', () => {
-        closeChatButton.style.color = 'red';
-      });
-
-      closeChatButton.addEventListener('mouseout', () => {
-        closeChatButton.style.color = '#333';
-      });
-
-      // Adicionando o iframe para o chat
-      const iframe = document.createElement('iframe');
-      iframe.src = 'http://195.35.40.52:8011/';
-      iframe.width = '100%';
-      iframe.height = '100%';
-      iframe.frameBorder = '0';
-      chatWindow.appendChild(iframe);
-      chatWindow.appendChild(closeChatButton);
-
-      return chatWindow;
-    };
-
-    // Caminho da imagem do ícone (personalize o caminho para sua imagem)
-    const chatIconImageUrl = 'http://195.35.40.52:8011/favicon';
-
-    // Criando o ícone e a janela do chat
-    const chatIcon = createChatIcon(chatIconImageUrl);
-    const chatWindow = createChatWindow();
-
-    // Adicionando o ícone e a janela à página
-    document.body.appendChild(chatIcon);
-    document.body.appendChild(chatWindow);
-
-    // Ação ao clicar no ícone: abrir ou fechar a janela do chat
-    chatIcon.addEventListener('click', () => {
-      // Definir a posição da janela do chat para a mesma posição do ícone
-      chatWindow.style.left = `${chatIcon.offsetLeft}px`;
-      chatWindow.style.top = `${chatIcon.offsetTop + chatIcon.offsetHeight + 10}px`; // Coloca a janela logo abaixo do ícone
-
-      if (chatWindow.style.display === 'none' || chatWindow.style.display === '') {
-        chatWindow.style.display = 'block'; // Exibir a janela do chat
-        chatWindow.style.transform = 'translateY(0)';
-      } else {
-        chatWindow.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-          chatWindow.style.display = 'none'; // Ocultar a janela do chat
-        }, 300); // Espera a animação de fechamento para esconder
-      }
-    });
-
-    // Fechar a janela do chat ao clicar no botão "X"
-    closeChatButton.addEventListener('click', () => {
-      chatWindow.style.transform = 'translateY(20px)';
-      setTimeout(() => {
-        chatWindow.style.display = 'none'; // Ocultar a janela do chat
-      }, 300); // Espera a animação de fechamento para esconder
-    });
-  })();
-</script>
+      (function() {
+        // Função para criar o ícone do chat com uma imagem personalizada
+        const createChatIcon = (imageUrl) => {
+          const chatIcon = document.createElement('button');
+          chatIcon.style.position = 'absolute';
+          chatIcon.style.width = '60px';
+          chatIcon.style.height = '60px';
+          chatIcon.style.border = 'none';
+          chatIcon.style.borderRadius = '50%';
+          chatIcon.style.background = `url(${imageUrl}) no-repeat center center`;
+          chatIcon.style.backgroundSize = 'cover';
+          chatIcon.style.cursor = 'pointer';
+          chatIcon.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+          chatIcon.style.zIndex = '9999';
+          chatIcon.title = 'Abrir Chat';
+    
+          // Efeito de hover
+          chatIcon.addEventListener('mouseover', () => {
+            chatIcon.style.transform = 'scale(1.1)';
+            chatIcon.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+          });
+    
+          chatIcon.addEventListener('mouseout', () => {
+            chatIcon.style.transform = 'scale(1)';
+            chatIcon.style.boxShadow = 'none';
+          });
+    
+          // Função para permitir arrastar o ícone
+          let offsetX = 0;
+          let offsetY = 0;
+          let isDragging = false;
+    
+          chatIcon.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            offsetX = e.clientX - chatIcon.getBoundingClientRect().left;
+            offsetY = e.clientY - chatIcon.getBoundingClientRect().top;
+            chatIcon.style.transition = 'none'; // Desabilita transição durante o arrasto
+          });
+    
+          document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+              chatIcon.style.left = `${e.clientX - offsetX}px`;
+              chatIcon.style.top = `${e.clientY - offsetY}px`;
+            }
+          });
+    
+          document.addEventListener('mouseup', () => {
+            isDragging = false;
+            chatIcon.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease'; // Reabilita transição
+          });
+    
+          return chatIcon;
+        };
+    
+        // Função para criar a janela do chat
+        const createChatWindow = () => {
+          const chatWindow = document.createElement('div');
+          chatWindow.style.display = 'none';
+          chatWindow.style.position = 'absolute';
+          chatWindow.style.width = '350px';
+          chatWindow.style.height = '450px';
+          chatWindow.style.backgroundColor = '#fff';
+          chatWindow.style.border = '1px solid #ddd';
+          chatWindow.style.borderRadius = '15px';
+          chatWindow.style.boxShadow = '0 6px 15px rgba(0, 0, 0, 0.2)';
+          chatWindow.style.overflow = 'hidden';
+          chatWindow.style.transition = 'transform 0.3s ease-in-out';
+          chatWindow.style.zIndex = '9999';
+    
+          // Criando o botão de fechar
+          const closeChatButton = document.createElement('button');
+          closeChatButton.innerHTML = '×';
+          closeChatButton.style.position = 'absolute';
+          closeChatButton.style.top = '10px';
+          closeChatButton.style.right = '10px';
+          closeChatButton.style.fontSize = '20px';
+          closeChatButton.style.backgroundColor = 'transparent';
+          closeChatButton.style.border = 'none';
+          closeChatButton.style.color = '#333';
+          closeChatButton.style.cursor = 'pointer';
+          closeChatButton.style.transition = 'color 0.3s ease';
+    
+          closeChatButton.addEventListener('mouseover', () => {
+            closeChatButton.style.color = 'red';
+          });
+    
+          closeChatButton.addEventListener('mouseout', () => {
+            closeChatButton.style.color = '#333';
+          });
+    
+          // Adicionando o iframe para o chat
+          const iframe = document.createElement('iframe');
+          iframe.src = 'http://195.35.40.52:8011/';
+          iframe.width = '100%';
+          iframe.height = '100%';
+          iframe.frameBorder = '0';
+          chatWindow.appendChild(iframe);
+          chatWindow.appendChild(closeChatButton);
+    
+          return chatWindow;
+        };
+    
+        // Caminho da imagem do ícone (personalize o caminho para sua imagem)
+        const chatIconImageUrl = 'http://195.35.40.52:8011/favicon';
+    
+        // Criando o ícone e a janela do chat
+        const chatIcon = createChatIcon(chatIconImageUrl);
+        const chatWindow = createChatWindow();
+    
+        // Adicionando o ícone e a janela à página
+        document.body.appendChild(chatIcon);
+        document.body.appendChild(chatWindow);
+    
+        // Ação ao clicar no ícone: abrir ou fechar a janela do chat
+        chatIcon.addEventListener('click', () => {
+          // Definir a posição da janela do chat para a mesma posição do ícone
+          chatWindow.style.left = `${chatIcon.offsetLeft}px`;
+          chatWindow.style.top = `${chatIcon.offsetTop + chatIcon.offsetHeight + 10}px`; // Coloca a janela logo abaixo do ícone
+    
+          if (chatWindow.style.display === 'none' || chatWindow.style.display === '') {
+            chatWindow.style.display = 'block'; // Exibir a janela do chat
+            chatWindow.style.transform = 'translateY(0)';
+          } else {
+            chatWindow.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+              chatWindow.style.display = 'none'; // Ocultar a janela do chat
+            }, 300); // Espera a animação de fechamento para esconder
+          }
+        });
+    
+        // Fechar a janela do chat ao clicar no botão "X"
+        closeChatButton.addEventListener('click', () => {
+          chatWindow.style.transform = 'translateY(20px)';
+          setTimeout(() => {
+            chatWindow.style.display = 'none'; // Ocultar a janela do chat
+          }, 300); // Espera a animação de fechamento para esconder
+        });
+      })();
+    </script>
 
 </body>
 </html>
