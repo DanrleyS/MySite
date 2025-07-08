@@ -160,10 +160,17 @@
           chatIcon.style.border = "none";
           chatIcon.style.backgroundImage = `url(${ICON_IMAGE_URL})`;
           chatIcon.style.backgroundSize = "cover";
+          chatIcon.style.backgroundPosition = "center"; // Garantindo que a imagem fique centralizada
           chatIcon.style.zIndex = "9999";
           chatIcon.style.cursor = "pointer";
           chatIcon.style.transition = "transform 0.2s, box-shadow 0.2s";
           chatIcon.title = "Abrir Chat";
+
+        // Definindo área de toque com `display: block` e `width/height` completos
+          chatIcon.style.display = "block";
+          chatIcon.style.width = "6vw"; // Garantindo que o ícone ocupe o espaço total
+          chatIcon.style.height = "6vw"; // Garantindo que o ícone ocupe o espaço total
+          chatIcon.style.touchAction = "none"; // Evitar o comportamento de zoom e scroll ao tocar no ícone
     
           chatIcon.addEventListener("mouseover", () => {
             chatIcon.style.transform = "scale(1.1)";
