@@ -178,29 +178,48 @@
     
           // ==================== DRAG & DROP ====================
           let isDragging = false;
+          let isDragging = false;
           let offsetX = 0;
           let offsetY = 0;
     
-          chatIcon.addEventListener("mousedown", (e) => {
+          // Para dispositivos móveis (touch)
+          const startDrag = (e) => {
+            e.preventDefault();
             isDragging = true;
-            offsetX = e.clientX - chatIcon.getBoundingClientRect().left;
-            offsetY = e.clientY - chatIcon.getBoundingClientRect().top;
+            const clientX = e.type === "mousedown" ? e.clientX : e.touches[0].clientX;
+            const clientY = e.type === "mousedown" ? e.clientY : e.touches[0].clientY;
+            offsetX = clientX - chatIcon.getBoundingClientRect().left;
+            offsetY = clientY - chatIcon.getBoundingClientRect().top;
             chatIcon.style.transition = "none";
-          });
+          };
     
-          document.addEventListener("mousemove", (e) => {
+          const dragMove = (e) => {
             if (isDragging) {
-              chatIcon.style.left = `${e.clientX - offsetX}px`;
-              chatIcon.style.top = `${e.clientY - offsetY}px`;
+              const clientX = e.type === "mousemove" ? e.clientX : e.touches[0].clientX;
+              const clientY = e.type === "mousemove" ? e.clientY : e.touches[0].clientY;
+              chatIcon.style.left = `${clientX - offsetX}px`;
+              chatIcon.style.top = `${clientY - offsetY}px`;
               chatIcon.style.bottom = "auto";
               chatIcon.style.right = "auto";
             }
-          });
+          };
     
-          document.addEventListener("mouseup", () => {
+          const stopDrag = () => {
             isDragging = false;
             chatIcon.style.transition = "transform 0.2s, box-shadow 0.2s";
-          });
+          };
+    
+          // Adicionando os eventos de mouse e touch
+          chatIcon.addEventListener("mousedown", startDrag);
+          chatIcon.addEventListener("touchstart", startDrag);
+    
+          document.addEventListener("mousemove", dragMove);
+          document.addEventListener("touchmove", dragMove);
+    
+          document.addEventListener("mouseup", stopDrag);
+          document.addEventListener("touchend", stopDrag);
+
+
     
           // ==================== JANELA DO CHAT ====================
           const chatWindow = document.createElement("div");
