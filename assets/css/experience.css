@@ -28,4 +28,8 @@
     margin-right: .5rem;
 }
 
+.experience li p {
+    white-space: pre-line;
+}
+
 
