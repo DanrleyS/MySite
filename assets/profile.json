@@ -107,6 +107,11 @@
   ],
   "portfolio": [
     {
+      "name": "LegalData API com IA personalizada (PHP 8+, Laravel 11, PostgreSQL)",
+      "url": "https://github.com/DanrleyS/LegalDataAPI_PHP_LARAVEL_COM_IA_PERONALIZADA",
+      "github": true
+    },
+    {
       "name": "Locadora de Veículos em Java (Spring boot, Sql e Postman)",
       "url": "https://github.com/DanrleyS/Locadora-de-Veiculos",
       "github": true
@@ -137,26 +142,6 @@
       "github": true
     },
     {
-      "name": "Quiz funcional em Python",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Quiz%20funcional%20em%20Python",
-      "github": true
-    },
-    {
-      "name": "Sistema bancario em Python - ultilizando defs",
-      "url": "https://github.com/DanrleyS/Portifolio/blob/main/Sistema_bancario-utilizando_defs",
-      "github": true
-    },
-    {
-      "name": "Calculadora Cientifica em JS",
-      "url": "https://github.com/DanrleyS/calculadora-cientifica",
-      "github": true
-    },
-    {
-      "name": "Pokedex em JavaScript",
-      "url": "https://github.com/DanrleyS/Pokedex",
-      "github": true
-    },
-    {
       "name": "Joguinho de carro com HTML, CSS, JavaScript",
       "url": "https://github.com/DanrleyS/joguinho-de-carro--Com-html--javaScript--css",
       "github": true
@@ -169,24 +154,19 @@
   ],
   "professionalExperience": [
      {
-      "name": "Desenvolvedor - Estágio",
-      "period": "aug 2024 - nov 2024",
-      "description": "Desenvolvi softwares na linguagem Java com SQL, Spring boot, Hibernate. Usando metodologia scrum em grupo desenvolvi uma aplicação de locadora em Java utilizando Spring Boot e Hibernate, testada no Postman, promovendo uma estrutura escalável para integração futura."
+      "name": "Engenheiro de Software, IA e Machine Learning – Maximiza Tecnologias",
+      "period": "Jan 2025 – current",
+      "description": "Atuação como Software Engineer no desenvolvimento e evolução de sistemas backend escaláveis em Python, com foco em arquitetura limpa, alta performance e integração de inteligência artificial aplicada.\n\nPrincipais responsabilidades e entregas:\n\n• Desenvolvimento e manutenção de APIs REST escaláveis utilizando Python, com foco em performance, modularidade e manutenibilidade\n• Definição e evolução da arquitetura backend baseada em princípios de Clean Architecture e separação de responsabilidades\n• Implementação de processamento assíncrono e execução de tarefas em background para aumento de escalabilidade\n• Controle de concorrência e integridade de dados em ambientes paralelos\n• Modelagem e otimização de consultas SQL visando redução de latência e melhoria de throughput\n• Containerização com Docker e integração com pipelines de CI/CD\n• Monitoramento, rastreabilidade e garantia de confiabilidade em ambientes cloud\n\nIA aplicada ao backend:\n\n• Orquestração de agentes baseados em Large Language Models (LLMs)\n• Desenvolvimento de tools reutilizáveis para automação e integração com APIs externas\n• Implementação de controle de tokens, refresh automático e mecanismos de segurança\n• Processamento e manipulação de grandes volumes de dados com Pandas/DataFrames\n\nParticipação ativa em decisões arquiteturais, definição de padrões técnicos e revisão de código, contribuindo para a evolução do ecossistema de sistemas inteligentes da empresa."
     },
     {
-      "name": "Coordenador de vendas",
-      "period": "Jan 2021 - Current",
-      "description": "Coordenador de vendas na Idioma Independente."
+      "name": "Desenvolvedor Full Stack - Solutis",
+      "period": "Mai 2024 – Dez 2024",
+      "description": "• Atuação como desenvolvedor Full Stack utilizando JavaScript, React, Node.js e Python no desenvolvimento de aplicações web e APIs REST.\n• Desenvolvimento e manutenção de APIs REST em Java (Spring Boot) e Node.js.\n• Implementação de interfaces responsivas com React, garantindo usabilidade e performance.\n• Modelagem e otimização de consultas SQL, reduzindo tempo de resposta em 35%.\n• Integração entre front-end e back-end, garantindo comunicação eficiente via APIs.\n• Integração de sistemas e testes via Postman.\n• Atuação em ambiente ágil (Scrum), com colaboração em equipe e organização via Jira.\n• Foco em código limpo, arquitetura escalável e boas práticas de engenharia de software."
     },
     {
-      "name": "Inside Sales",
-      "period": "Jan 2021 - Jan 2024",
-      "description": "Inside Sales na IMG International."
-    },
-    {
-      "name": "Language Teacher",
-      "period": "Jan 2020 - Current",
-      "description": "Professor de espanhol em Aliança América."
+      "name": "Engenheiro de Software – GACE",
+      "period": "Fev 2020 – Mai 2024",
+      "description": "• Desenvolvimento de APIs REST escaláveis com Python (FastAPI/Flask) e Java (Spring Boot), implementando autenticação JWT e controle de permissões.\n• Definição e implementação de arquiteturas em camadas (Controller, Service, Repository), aplicando princípios SOLID e boas práticas.\n• Estruturação de microsserviços e integração entre sistemas internos.\n• Desenvolvimento frontend com React e JavaScript, garantindo integração eficiente com APIs.\n• Modelagem e otimização de bancos PostgreSQL, SQL Server e MongoDB.\n• Containerização com Docker para padronização de ambientes e suporte a deploy.\n• Configuração de pipelines CI/CD para automação de build e deploy.\n• Deploy e manutenção de aplicações em ambientes Linux e Google Cloud.\n• Desenvolvimento de rotinas de processamento de dados com Python.\n• Versionamento e colaboração utilizando Git/GitHub.\n• Modelagem e otimização de bancos PostgreSQL, SQL Server e MongoDB, alcançando redução de até 35% no tempo de resposta por meio de otimização de queries e ajustes estruturais."
     }
   ],
 
