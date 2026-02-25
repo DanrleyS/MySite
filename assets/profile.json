@@ -153,7 +153,7 @@
     }
   ],
   "professionalExperience": [
-     {
+    {
       "name": "Engenheiro de Software, IA e Machine Learning – Maximiza Tecnologias",
       "period": "Jan 2025 – current",
       "description": "Atuação como Software Engineer no desenvolvimento e evolução de sistemas backend escaláveis em Python, com foco em arquitetura limpa, alta performance e integração de inteligência artificial aplicada.\n\nPrincipais responsabilidades e entregas:\n\n• Desenvolvimento e manutenção de APIs REST escaláveis utilizando Python, com foco em performance, modularidade e manutenibilidade\n• Definição e evolução da arquitetura backend baseada em princípios de Clean Architecture e separação de responsabilidades\n• Implementação de processamento assíncrono e execução de tarefas em background para aumento de escalabilidade\n• Controle de concorrência e integridade de dados em ambientes paralelos\n• Modelagem e otimização de consultas SQL visando redução de latência e melhoria de throughput\n• Containerização com Docker e integração com pipelines de CI/CD\n• Monitoramento, rastreabilidade e garantia de confiabilidade em ambientes cloud\n\nIA aplicada ao backend:\n\n• Orquestração de agentes baseados em Large Language Models (LLMs)\n• Desenvolvimento de tools reutilizáveis para automação e integração com APIs externas\n• Implementação de controle de tokens, refresh automático e mecanismos de segurança\n• Processamento e manipulação de grandes volumes de dados com Pandas/DataFrames\n\nParticipação ativa em decisões arquiteturais, definição de padrões técnicos e revisão de código, contribuindo para a evolução do ecossistema de sistemas inteligentes da empresa."
